@@ -1,0 +1,5 @@
+// DOM stands for Document Object Model, which allows us to use html tags, css classes. 
+// It connects static page to communicate with Javascript Code. 
+
+// Dom is not part of JAvaScript as it is connected with browser and browser is connected with browsers. 
+// Dom is connected with Web Apis and Javascript is used to use those Apis
