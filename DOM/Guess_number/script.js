@@ -32,10 +32,25 @@
 
 
 // Randmoly generated number
-const randNum = Math.floor(Math.random() * 50) + 10;
+let randNum = Math.trunc(Math.random() * 20) + 10;
 console.log(randNum)
 let high_score = 0;
 let my_score = 10;
+
+document.querySelector('.playAgain').addEventListener('click', function(){
+    document.querySelector('body').style.backgroundColor = 'white';
+    my_score = 10;
+    randNum = Math.trunc(Math.random() * 20) + 10;
+    console.log(randNum)
+
+    document.querySelector('.message').textContent = "Start Guessing ...."
+    document.querySelector('.Number').value = '';
+    document.querySelector('.score').textContent = my_score;
+    document.querySelector('.HighScore').textContent = high_score;
+
+    
+})
+
 document.querySelector('.check').addEventListener('click', function(){
     // Since its input so we will have to use value with it
     // We also have to convert it into Integer to compara it with randomly generated number
