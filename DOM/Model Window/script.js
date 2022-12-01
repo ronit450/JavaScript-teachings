@@ -1,7 +1,7 @@
 'use strict';
 // Firs of all we have to select all the classes and store it in variable so that we can use them for future ref 
 
-const hidden_box = document.querySelector('.hidden');
+const hidden_box = document.querySelector(".hidden");
 const close_btn = document.querySelector('.close');
 const overlayHidden = document.querySelector('.overlay');
 const model_heading = document.querySelector('.model_span');
@@ -30,7 +30,7 @@ const close_overlay =  function() {
 
 for (let i = 0; i < modle_btn.length; i++){
 
-    modle_btn[i].addEventListener('click', open_model(i));
+    modle_btn[i].addEventListener('click', () => open_model(i));
         
     close_btn.addEventListener('click', close_overlay);
     overlayHidden.addEventListener('click', close_overlay);

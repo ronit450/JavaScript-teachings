@@ -60,6 +60,3 @@ console.log(student_data.calcAge(2001));
 
 console.log(student_data.birthYear())
 console.log(student_data.yearBorn);
-
-
-
