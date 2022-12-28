@@ -34,6 +34,20 @@ for (let i = 0; i < modle_btn.length; i++){
         
     close_btn.addEventListener('click', close_overlay);
     overlayHidden.addEventListener('click', close_overlay);
-
+   
 
 }
+
+
+// For the key press event we have to use the the key events which in itself has three features:
+// Keyup
+// Keydown = when we hit any key on the keyboard and this is generally ised
+// Keypress = when suddent key are hit repeatdly
+
+document.addEventListener('keydown', function(event_key){
+        if (event_key.key === 'Escape' && !model.classList.contains('hidden')){
+                close_overlay();
+
+                
+        }
+})

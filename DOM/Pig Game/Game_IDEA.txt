@@ -1,0 +1,2 @@
+The game is about thinking and betting upon the luck. There are two players in this game where one player will roll the dice until he gets 1 or any specified number. he can hold the score and all the score will be then added to the high score. 
+If for example player 1 rolls the dice and gets 15 and holds the score. if player 2 gets more than 15 player 2 will win the game
